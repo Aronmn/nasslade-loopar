@@ -41,22 +41,16 @@ namespace nasslade_loopar
             }
             Console.WriteLine();
             //Övning 3
-            char tecken2;
             for (int z = 0; z < 10; z++)
             {
                 for (int a = 0; a < 10-z; a++)
                 {
-                    if (z % 2 == 0)
-                        tecken2 = '#';
-                    else
-                        tecken2 = '#';
-                    Console.Write(tecken2);
+                    Console.Write('#');
                 }
                 Console.WriteLine();
             }
             Console.WriteLine();
             //Övning 4 
-            char tecken3;
             for (int z1 = 0; z1 < 10; z1++)
             {
                 for (int a1 = 0; a1 < 1 + z1; a1++)
