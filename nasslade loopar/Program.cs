@@ -54,7 +54,22 @@ namespace nasslade_loopar
                 }
                 Console.WriteLine();
             }
-            //Övning 4
+            Console.WriteLine();
+            //Övning 4 
+            char tecken3;
+            for (int z1 = 0; z1 < 10; z1++)
+            {
+                for (int a1 = 0; a1 < 1 + z1; a1++)
+                {
+                    if (z1 % 2 == 0)
+                        tecken3 = '.';
+                    else
+                        tecken3 = '.';
+                    Console.Write(tecken3);
+                }
+                Console.WriteLine();
+
+            }
 
 
 
