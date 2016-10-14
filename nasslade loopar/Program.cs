@@ -61,11 +61,7 @@ namespace nasslade_loopar
             {
                 for (int a1 = 0; a1 < 1 + z1; a1++)
                 {
-                    if (z1 % 2 == 0)
-                        tecken3 = '.';
-                    else
-                        tecken3 = '.';
-                    Console.Write(tecken3);
+                    Console.Write('.');
                 }
                 Console.WriteLine();
 
