@@ -9,7 +9,7 @@ namespace nasslade_loopar
     class Program
     {
         static void Main(string[] args)
-        {
+        {g
         }
     }
 }
